@@ -9,7 +9,53 @@
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
       "value": "ANYTHING"
     },
-"APP_ID": {
+"API_KEY": {
       "description": "Get this value from https://my.telegram.org",
       "value": ""
     },
+"API_HASH": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": ""
+    },
+    "TG_BOT_TOKEN": {
+      "description": "get this value from @BotFather",
+      "value": ""
+    },
+    "AUTHORIZED_CHATS": {
+      "description": "should be an integer. The BOT API ID of the Telegram Group, where the Leecher should work.",
+      "value": ""
+    },
+    "OWNER_ID": {
+      "description": "should be an integer. ID of owner of bot",
+      "value": ""
+    },
+"GDRIVE_FOLDER_ID": {
+      "description": "This is the folder ID of the Google Drive Folder to which you want to upload all the mirrors.",
+      "value": ""
+    },
+"DOWNLOAD_DIR": {
+      "description": "The path to the local folder where the downloads should be downloaded to",
+      "value": ""
+    },
+"DOWNLOAD_STATUS_UPDATE_INTERVAL": {
+      "description": "A short interval of time in seconds after which the Mirror progress message is updated. (I recommend to keep it 5 seconds at least)",
+      "value": ""
+    },
+"IS_TEAM_DRIVE": {
+      "description": "(Optional field) Set to "True" if GDRIVE_FOLDER_ID is from a Team Drive else False or Leave it empty.",
+      "value": ""
+    },
+"USE_SERVICE_ACCOUNTS": {
+      "description": "(Optional field) (Leave empty if unsure) Whether to use service accounts or not. For this to work see "Using service accounts" section below.",
+      "value": ""
+    },
+"STOP_DUPLICATE_MIRROR": {
+      "description": " (Optional field) (Leave empty if unsure) if this field is set to True , bot will check file in drive, if it is present in drive, downloading will ne stopped. (Note - File will be checked using filename, not using filehash, so this feature is not perfect yet)",
+      "value": ""
+    },
+"BLOCK_MEGA_LINKS": {
+      "description": "(Optional field) If you want to remove mega.nz mirror support (bcoz it's too much buggy and unstable), set it to True.",
+      "value": ""
+    },
+
+
