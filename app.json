@@ -1,0 +1,15 @@
+{
+  "name": "Telegram Torrent Leecher",
+  "description": "A Telegram Torrent (and youtube-dl) Leecher based on Pyrogram. Powered by @torrentleechgdrivesupport!",
+  "keywords": [
+    "telegram"
+  ],
+"env": {
+    "ENV": {
+      "description": "Setting this to ANYTHING will enable webhooks when in env mode",
+      "value": "ANYTHING"
+    },
+"APP_ID": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": ""
+    },
