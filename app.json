@@ -56,6 +56,8 @@
 "BLOCK_MEGA_LINKS": {
       "description": "(Optional field) If you want to remove mega.nz mirror support (bcoz it's too much buggy and unstable), set it to True.",
       "value": ""
+      }
     },
-
+"stack": "container"
+}
 
